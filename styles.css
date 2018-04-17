@@ -1,0 +1,262 @@
+#nav-panel #profile-img {
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: 81px;
+}
+
+
+#line-1 {
+    color: #2B3240;
+    position: relative;
+    margin-top: 9rem;
+    width: 248px;
+    margin-left: 0px;
+}
+
+#line-2 {
+  color: #2B3240;
+  position: relative;
+  width: 248px;
+  margin-left: 0px;
+}
+
+#line-3 {
+  background-color: #2B3240;
+  position: relative;
+  width: 248px;
+  margin-left: 0px;
+}
+li {
+  position: relative;
+  list-style-type: none;
+}
+
+#main {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1em;
+    font-size: 16px;
+    color: #67738B;
+}
+
+#admin {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 1em;
+    font-size: 16px;
+    color: #67738B;
+}
+
+#categories {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 1em;
+    font-size: 16px;
+    color: #67738B;
+}
+
+h2 {
+  position: relative;
+}
+
+.icon-home {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #a0acbf;
+    margin-left: -1em;
+}
+
+.icon-jobs {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #a0acbf;
+    margin-left: -1em;
+}
+
+.icon-resumes {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #a0acbf;
+    margin-left: -1em;
+}
+
+.icon-tasks {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #a0acbf;
+    margin-left: -1em;
+}
+
+.icon-calendar {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #a0acbf;
+  margin-left: -1em;
+}
+
+.icon-users {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #a0acbf;
+  margin-left: -1em;
+}
+
+.icon-locations {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #a0acbf;
+  margin-left: -1em;
+}
+
+.icon-workflows {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #a0acbf;
+  margin-left: -1em;
+}
+
+.icon-jobboards {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #a0acbf;
+  margin-left: -1em;
+}
+
+.icon-social {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #a0acbf;
+  margin-left: -1em;
+}
+
+.icon-administrative {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #a0acbf;
+  margin-left: -1em;
+}
+
+.icon-design {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #a0acbf;
+  margin-left: -1em;
+}
+
+.icon-executive {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #a0acbf;
+  margin-left: -1em;
+}
+
+.icon-humanresources {
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #a0acbf;
+    margin-left: -1em;
+}
+
+#nav-panel h1 {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #a0acbf;
+    margin-top: 3px;
+    margin-left: 5rem;
+  }
+
+#nav-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+    width: 250px;
+    min-height: 140%;
+    min-width: 200px;
+    background-color: #354052;
+    font-size: initial;
+}
+
+ #drop-down-menu {
+    width: 80px;
+    height: 80px;
+}
+
+#main-content header {
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    font-size: 0;
+    border-bottom: 2px solid #eef2f5;
+}
+
+#search-input  {
+    vertical-align: top;
+    height: 80px;
+    width: 50.8rem;
+    border-top: none;
+    border-bottom: 2px solid #eef2f5;
+    border-right: 2px solid #eef2f5;
+    border-left: 2px solid #eef2f5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4e515e;
+    padding-left: 60px;
+    margin-top: -64rem;
+    margin-left: 20.6rem;
+}
+
+#menu-btn {
+    margin-left: 17.5rem;
+    vertical-align: top;
+    margin-top: -57rem;
+}
+
+#add-user-btn {
+      margin-left: 78rem;
+    vertical-align: top;
+    margin-top: -62rem;
+}
+
+#add-event-btn{
+   margin-left: 82rem;
+    vertical-align: top;
+    margin-top: -62rem;
+}
+
+#settings-btn{
+   margin-left: 86rem;
+    vertical-align: top;
+    margin-top: -62rem;
+}
