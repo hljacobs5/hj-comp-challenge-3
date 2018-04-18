@@ -216,7 +216,7 @@ h2 {
     display: inline-block;
     width: 250px;
     min-height: 140%;
-    width: 250px;
+    /*width: 250px;*/
     background-color: #354052;
     font-size: initial;
 }
@@ -349,8 +349,8 @@ h2 {
     /* width: 33.8rem; */
     margin-left: 2rem;
     margin-top: -59rem;
-    background: #fff;
-    border-bottom: 1px solid #ddd;
+    /*background: #fff;*/
+    border-bottom: 1px solid;
     display: flex;
     /*flex-flow: row wrap;*/
     height: 70px;
@@ -364,14 +364,14 @@ h2 {
 }*/
 
 .top-icons {
-  border-left: 1px solid #ddd;
+  border-left: 1px solid;
   display: flex;
   width: 210px;
 }
 
 .top-icon {
   align-items: center;  
-  border-right: 1px solid #ddd;
+  border-right: 1px solid;
   /*color: blue;*/
   /*display: flex;*/
   height: 100%;
@@ -506,4 +506,11 @@ h2 {
     width: 25.5rem;
     margin-left: 49rem;
     margin-top: -14rem;
+}
+
+#statistics {
+display: flex;
+width: 100%;
+min-height: 200rem;
+background-color: #EDF2F6;
 }
