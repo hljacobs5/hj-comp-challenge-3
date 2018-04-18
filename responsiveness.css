@@ -89,22 +89,47 @@
 }
 
 @media only screen and (max-width: 320px) {
-  
+
   #chart {
     display: stack;
   }
 
+#main {
+  display: none;
+}
+
+#admin {
+  display: none;
+}
+
+#categories {
+  display: none;
+}
+
+#line-1, #line-2, #line-3, #line-4 {
+  display: none;
+}
+
+.icon-home, .icon-jobs,
+.icon-resumes, .icon-tasks,
+.icon-calendar, .icon-users,
+.icon-locations, .icon-workflows,
+.icon-jobboards, .icon-social,
+.icon-administrative, .icon-design,
+.icon-executive, .icon-humanresources {
+  display: none;
+} 
  .table {
-    margin-top: -30.5rem;
+    margin-top: -217rem;
     margin-left: -2.5rem;
     width: 320px;
-}
+  }
 
   #statistics {
     margin-top: 33rem;
   }
 
-  #nav-panel {
+  .side-panel {
    display: none;
   }
 
