@@ -1,3 +1,8 @@
+/*left side nav panel*/
+.side-panel {
+  display: flex;
+}
+
 #nav-panel #profile-img {
     margin-top: 30px;
     width: 70px;
@@ -28,9 +33,19 @@
   width: 248px;
   margin-left: 0px;
 }
+
 li {
   position: relative;
   list-style-type: none;
+  cursor: pointer;
+  width: 200px;
+}
+
+li:hover {
+  background-color: #2B3240;
+  margin-left: 10px;
+  border-bottom: #FFFFFF;
+
 }
 
 #main {
@@ -201,15 +216,27 @@ h2 {
     display: inline-block;
     width: 250px;
     min-height: 140%;
-    min-width: 200px;
+    width: 250px;
     background-color: #354052;
     font-size: initial;
 }
 
- #drop-down-menu {
+/*nav-panel hovers*/
+
+
+/* #drop-down-menu {
     width: 80px;
     height: 80px;
+}*/
+
+
+/*top-panel*/
+
+
+.top-panel {
+  display: flex;
 }
+
 
 #main-content header {
     display: inline-block;
@@ -220,9 +247,18 @@ h2 {
 }
 
 #search-input  {
+   /* background: transparent; */
+    /* border: 0; */
+    /*color: #666;*/
+     /*flex: 1; */
+    height: 4rem;
+    width: 25rem;
+    margin-left: -9.5rem;
+    text-indent: 50px;
     vertical-align: top;
     height: 80px;
-    width: 50.8rem;
+    width: 50rem;
+    display: flex;
     border-top: none;
     border-bottom: 2px solid #eef2f5;
     border-right: 2px solid #eef2f5;
@@ -244,19 +280,230 @@ h2 {
 }
 
 #add-user-btn {
-      margin-left: 78rem;
+    margin-left: 78rem;
     vertical-align: top;
     margin-top: -62rem;
 }
 
 #add-event-btn{
    margin-left: 82rem;
-    vertical-align: top;
-    margin-top: -62rem;
+   vertical-align: top;
+   margin-top: -62rem;
 }
 
-#settings-btn{
+#settings-btn {
    margin-left: 86rem;
+   vertical-align: top;
+   margin-top: -62rem;
+}
+
+#job-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #4e515e;
+    margin-top: 2rem;
+    margin-left: 17rem;
+}
+
+#location {
+    margin-left: 17rem;
+    margin-top: -1rem;
+}
+
+
+.search {
+  position: absolute;
+  align-items: center;
+  /*color: #aaa;*/
+  /*display: flex;*/
+  flex: 1;
+  font-size: 25px;
+}
+
+/*.search input {*/
+    /* background: transparent; */
+    /* border: 0; */
+  /*  color: #666;
+     flex: 1; 
+    height: 4rem;
+    width: 25rem;
+    margin-left: -9.5rem;
+    text-indent: 50px;
+}*/
+
+/*.search input:focus {
+  outline: none;
+}*/
+
+.search svg {
+  left: 30px;
+  position: relative;
+}
+
+.top-panel {
+
+    /* vertical-align: top; */
+    /* width: 33.8rem; */
+    margin-left: 2rem;
+    margin-top: -59rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    /*flex-flow: row wrap;*/
+    height: 70px;
+    justify-content: space-around;
+}
+}
+
+/*#top-panel {
+  margin-top: -5rem;
+  width: 50rem;
+}*/
+
+.top-icons {
+  border-left: 1px solid #ddd;
+  display: flex;
+  width: 210px;
+}
+
+.top-icon {
+  align-items: center;  
+  border-right: 1px solid #ddd;
+  /*color: blue;*/
+  /*display: flex;*/
+  height: 100%;
+  justify-content: center;
+  width: 70px;
+  cursor: pointer;
+}
+
+.top-icon:hover {
+  background: #16a4fa;
+  /*color: #fff;*/
+}
+
+/*.edit-icon:hover {
+  background: url(icons/white-edit-button.svg);
+}*/
+
+.bookmark-icon {
+  height: 30px;
+  width: 30px;
+}
+
+/*middle section*/
+
+#middle-section {
+  display: flex;
+}
+#main-content #content #heading #icons-heading {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+#main-content #content #shortlinks li a{
+    display: flex;
+    height: 30px;
     vertical-align: top;
-    margin-top: -62rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 24px;
+    line-height: 1.5rem;
+    text-decoration: none;
+    color: #8a95a5;
+  }
+
+#main-content #content #shortlinks li {
+    display: inline-block;
+    height: 30px;
+    margin-right: 40px;
+}
+
+#main-content #content #heading #icons-heading .icon-heading.status {
+    position: relative;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+
+#main-content #content #heading #icons-heading .icon-heading {
+    display: inline-block;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: top;
+    background-color: #FFF;
+    border: 2px solid #d2dae2;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#main-content #content 
+#heading #icons-heading 
+.icon-heading.bookmark {
+    width: 40px;
+    height: 40px;
+    background: url(icons/bookmark.svg) no-repeat center center;
+}
+
+#main-content #content 
+#heading #icons-heading 
+.icon-heading.edit {
+    width: 40px;
+    height: 40px;
+    background: url(icons/pencil-edit-button.svg) no-repeat center center;
+}
+
+#main-content #content 
+#heading #icons-heading 
+.icon-heading.delete {
+    width: 40px;
+    height: 40px;
+    background: url(icons/delete.svg) no-repeat center center;
+}
+
+#main-content #content 
+#heading #icons-heading 
+.icon-heading a:last-child {
+    margin-right: 0;
+}
+
+#main-content #content 
+#heading #icons-heading {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    margin-top: 8rem;
+}
+
+#main-content #content 
+#heading #icons-heading 
+.icon-heading.status {
+    position: relative;
+    border-radius: 20px;
+    padding-left: 20px;
+    width: 4rem;
+}
+
+#shortlinks ul li{
+  display: inline;
+  margin-left: .5rem;
+}
+
+#shortlinks {
+  margin-left: 14rem;
+  /*margin-top: -1rem;*/
+}
+
+
+/*charts*/
+
+#chart {
+    width: 25.5rem;
+    margin-left: 49rem;
+    margin-top: -14rem;
 }
