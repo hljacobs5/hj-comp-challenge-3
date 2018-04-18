@@ -28,4 +28,4 @@
 #### Include a README with the repo that provides a brief overview of the project, and images of both the original comp and your version.
 #### Push your final work to github pages
 
-![alt text]()
+![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/static-comp-example.png)
