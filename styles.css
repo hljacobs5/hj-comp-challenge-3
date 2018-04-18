@@ -409,7 +409,7 @@ h2 {
 
 
 
-.extra-features {
+.table-styling {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -417,14 +417,14 @@ h2 {
   width: 30%;
 }
 
-.extra-features h3 {
+/*.extra-features h3 {
   color: #566473;
-}
+}*/
 
-.aside-wow {
+/*.aside-wow {
   height: 300px;
   width: 300px;
-}
+}*/
 
 .post-facebook {
   background: #4b70c3;
