@@ -315,7 +315,7 @@ h2 {
   width: 33%;
 }
 
-.summary {
+.summary-link {
   vertical-align: top;
   width: 31.5%;
 }
@@ -356,7 +356,7 @@ h2 {
   background: #fafafc;
 }
 
-.description-p p {
+.description-info p {
   font-family: 'IBM Plex Sans', sans-serif;
 
 }
@@ -417,16 +417,7 @@ h2 {
   width: 30%;
 }
 
-/*.extra-features h3 {
-  color: #566473;
-}*/
-
-/*.aside-wow {
-  height: 300px;
-  width: 300px;
-}*/
-
-.post-facebook {
+.facebook {
   background: #4b70c3;
   color:#ffffff;
   cursor:pointer;
@@ -438,7 +429,7 @@ h2 {
   width: 245px;
 }
 
-.post-twitter {
+.twitter {
   background: #00abf0;
   color:#ffffff;
   cursor:pointer;
@@ -451,7 +442,7 @@ h2 {
   width: 245px;
 }
 
-.post-linkedin {
+.linkedin {
   background: #0381be;
   color:#ffffff;
   cursor:pointer;
@@ -464,13 +455,13 @@ h2 {
   width: 245px;
 }
 
-.link-wrapper {
+.social-media {
   align-items: space-around;
   display: flex;
   flex-direction: column;
 }
 
-.link-wrapper img {
+.social-media img {
   height: 20px;
 }
 

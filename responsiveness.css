@@ -1,14 +1,6 @@
+
+
 @media only screen and (max-width: 948px) {
-
-  /*#pies {
-    margin-left: -3rem;
-    height: 15rem;
-    width: 15rem;
-  }*/
-
-  /*#statistics {
-    width: width: 148%;
-  }*/
   .links {
     font-size: 12px;
   }
@@ -19,34 +11,110 @@
     margin-top: 13rem;
   }
 
-  /*.cell {
+  .job-description {
+    margin-top: 14rem;
+  }
 
-    height: 1rem;
-    padding: 20px 20px 20px 0;
-    vertical-align: middle;
-}*/
+  .social-media{
+    margin-top: 51rem;
+    margin-left: -60rem;
+  }
 
-.job-description {
-  margin-top: 14rem;
-}
+  .explore-links {
+    margin-left: -19rem;
+    margin-top: -11rem;
+    width: 20rem;
+  }
 
-.link-wrapper{
-  margin-top: 51rem;
-  margin-left: -83rem;
-}
+  .table {
+    width: 312%;
+    margin-top: -4rem;
+  }
 
-.explore-links {
-      margin-left: -19rem;
-    margin-top: -9rem;
-}
-
-.table {
-  width: 312%;
-  margin-top: -4rem;
-}
-
-input {
+  input {
     overflow: visible;
     width: 25rem;
+  }
+  }
+@media only screen and (max-width: 856px) {
+   .explore-links {
+    margin-left: -40rem;
+    margin-top: 5rem;
+    width: 20rem;
+  }
+
+  .social-media{
+    margin-top: 55rem;
+    margin-left: -40rem;
+  }
 }
+
+@media only screen and (max-width: 736px) {
+ input {
+  width: 0px;
+  }
+     .explore-links {
+    margin-left: -60rem;
+    margin-top: 8rem;
+    width: 20rem;
+  }
+
+  .social-media{
+    margin-top: 70rem;
+    margin-left: -70rem;
+  }
+
+}
+
+@media only screen and (max-width: 494px){
+  .table {
+  margin-top: -1.5rem;
+  margin-left: -.5rem;
+
+  }
+
+ #nav-panel {
+  min-height: 137%;
+  }
+
+ .link-job h3 {
+   display: inline;
+   font-size: 20px;
+   margin-left: 5px;
+   vertical-align: middle;
+}
+
+#links ul li {
+  font-size: 13px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+  
+  #chart {
+    display: stack;
+  }
+
+ .table {
+    margin-top: -30.5rem;
+    margin-left: -2.5rem;
+    width: 320px;
+}
+
+  #statistics {
+    margin-top: 33rem;
+  }
+
+  #nav-panel {
+    min-height: 137%;
+    width: 320px;
+  }
+
+  #charts {
+    display: none;
+  }
+
+  .explore-links{
+    width: 320px;
+  }
 }
