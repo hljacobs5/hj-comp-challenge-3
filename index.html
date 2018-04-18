@@ -5,6 +5,7 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="normalize.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Indie+Flower" rel="stylesheet">
 </head>
 <body>
   <div id="side-panel">
@@ -125,25 +126,20 @@
     </ul>
   </nav>
 </div>
-  
-
-  <!-- <div id="right-content"> -->
-   <div id="top-panel">
+<div id="top-panel">
     <section class="top-panel">
-    <img src="icons/menu.svg" class="menu-icon top-icon" aria-label="Toggle sidebar navigation">
+    <img src="icons/menu.svg" class="menu-icon top-icon" alt="menu">
     <article class="search">
-    <input type="text" placeholder="Search for job, task, or resume" role="search website"/>
+    <input type="text" placeholder="Search for job, task, or resume"/>
     </article>
     <article class="top-icons">
-    <img src="icons/bookmark.svg" class="bookmark-icon top-icon" aria-label="book mark page button">
-    <img src="icons/pencil-edit-button.svg" class="edit-icon top-icon" aria-label="calendar button">
-    <img src="icons/delete.svg" class="trash-icon top-icon" aria-label="save job button">
+    <img src="icons/new-user.svg" class="add-user-icon top-icon" alt="add user button">
+    <img src="icons/calendar.svg" class="calendar-icon top-icon" alt="add event button">
+    <img src="icons/settings.svg" class="settings-icon top-icon" alt="settings button">
     </article>
   </section>
-  </div>
-  <!-- </div> -->
-  <!-- </div> -->
-  <div id="middle-section">
+</div>
+<div id="middle-section">
     <div id="content">
     <section id="heading">
       <h1 id="job-title">Customer Service Representative</h1>
@@ -166,266 +162,182 @@
         </div>
       </div>
     </section>
-    <nav id="shortlinks">
+    <nav id="links">
       <ul>
         <li class="active">
-          <a href>SUMMARY</a>
+          <a href id="summary">SUMMARY</a>
         </li>
         <li>
-          <a href>APPLICANTS</a>
+          <a href id="applicants">APPLICANTS</a>
         </li>
         <li>
-          <a href>JOB BOARD</a>
+          <a href id="job-board">JOB BOARD</a>
         </li>
         <li>
-          <a href>INTERVIEWS</a>
+          <a href id="interviews">INTERVIEWS</a>
         </li>
         <li>
-          <a href>ACTIVITY</a>
+          <a href id="activity">ACTIVITY</a>
         </li>
         <li>
-          <a href>BROADCAST</a>
+          <a href id="broadcast">BROADCAST</a>
         </li>
         <li>
-          <a href>NOTIFICATIONS</a>
+          <a href id="notifications">NOTIFICATIONS</a>
         </li>
       </ul>
     </nav>
   </div>
 </div>
 <div id="graph-content">
-<!-- <div id="subcontent"> -->
-    <section id="statistics">
-      <div id="pies">
-        <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
-        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+  <section id="statistics">
+    <div id="pies">
+      <svg width="32rem" height="32rem" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="26" cy="21" r="15.91549430918954" fill="#EDF2F6"></circle>
         <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
 
-        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="25"></circle>
-</svg>
-        <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
-        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#67B8BF" stroke-width="3" stroke-dasharray="30 68" stroke-dashoffset="25"></circle>
+      </svg>
+      <svg width="32rem" height="32rem" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#EDF2F6"></circle>
         <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
 
-        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="25"></circle>
-</svg>
-<svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
-        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#47A3F3" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="25"></circle>
+      </svg>
+      <svg width="32rem" height="32rem" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#EDF2F6"></circle>
         <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
 
-        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="25"></circle>
-</svg>
-</div>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#A46DAB" stroke-width="3" stroke-dasharray="120 80" stroke-dashoffset="25"></circle>
+      </svg>
+      </div>
+     <div class="chart">
+     <img src="icons/graph.png" id="chart">
+    </div>
+  </div>
 </section>
-</div>
-
-
-       <!--  <div class="pie" data-percent="85" data-color="#47bac1">
-          <div class="content">
-            <span class="count">3154</span>
-            <span class="subhead">Resumes</span>
-          </div>
-          <canvas height="150" width="150"></canvas>
-          </div>
-          <div class="pie" data-percent="60" data-color="#15a4fa">
-            <div class="content">
-              <span class="count">1546</span>
-              <span class="subhead">Interviews</span>
-            </div>
-            <div class="pie" data-percent="20" data-color="#ae69af">
-              <div class="content">
-                <span class="count">912</span>
-                <span class="subhead">Forwards</span>
+  <hr id="line-4">
+  <div class="job-description">
+    <div class="table">
+      <div class="job-description-content">
+        <div class="cell description-header">JOB DESCRIPTION</div>
+          <div class="cell edit-desc">
+            <a class="edit-desc-button">
+              <img src="icons/white-pencil.svg"><span>EDIT</span></a></div>
+                </div>
+                <div class="job-description-content">
+                <div class="cell description job-position"><span>POSITION TITLE</span></div>
+                <div class="cell description-p"><p>Customer Service Representative</p></div>
               </div>
-              <div class="total-wrap total1">
-                <div class="total">
-                  "TOTALS "
-                  <span class="light"></span>
-                  " Out of "
-                  <strong>5,231</strong>
-                  " views" -->
-                
-              <!-- </div> -->
-              <div class="chart">
-                <img src="icons/graph.png" id="chart">
+              <div class="job-description-content">
+                <div class="cell description job-position"><span>LOCATION</span></div>
+                <div class="cell description-p"><p>San Francisco, CA</p></div>
+              </div>
+              <div class="job-description-content">
+                <div class="cell description job-position"><span>EMPLOYMENT TYPE</span></div>
+                <div class="cell description-p"><p>Full Time</p></div>
+              </div>
+              <div class="job-description-content">
+                <div class="cell description job-position"><span>EXPERIENCE</span></div>
+                <div class="cell description-p"><p>Mid-Level</p></div>
+              </div>
+              <div class="job-description-content">
+                <div class="cell description job-position"><span>STATUS</span></div>
+                <div class="cell description-p"><p>Open</p></div>
+              </div>
+              <div class="job-description-content">
+                <div class="cell description summary"><span>DESCRIPTION</span></div>
+                <div class="cell-p description-p">
+                  <p>
+                    The Customer Service Representative
+                  is responsible for interacting with and providing quality assistance to all radical customers,
+                  responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce
+                  customer service wait times while doing a backhand spring and eating a ham sandwich.
+                </p>
+              </div>
+              </div>
+              <div class="job-description-content">
+                <div class="cell description job-position">
+                  <span>HIRING LEAD</span>
+                </div>
+                <div class="cell hiring-lead">
+                  <img src="icons/man-picture.jpg">
+                  <p>Jon Holmes</p>
+                </div>
+              </div>
+              <div class="job-description-content">
+                <div class="cell description job-position">
+                  <span>APPROVED SALARY</span>
+                </div>
+                <div class="cell description-p">
+                  <p>$58,000</p>
+                </div>
+              </div>
             </div>
-          </body>
-        </html>
-           <!--  <div id="chart">
-              <ul id="legend">
-                <li>500</li>
-                <li>400</li>
-                <li>300</li>
-                <li>200</li>
-                <li>100</li>
-                <li>0</li>
-              </ul>
-              <ul id="bars">
-                <li>
-                  <div class="bar" data-percent="12" style="height: 30px;"></div>
-                  <div class="data" style="top: 132.6px; display: none;">
-                    <strong>Monday, April 16</strong>
-                    <br>
-                    <span class="applicants">53</span>
-                    " Applicants / "
-                    <span class="interviews">5</span>
-                    " Interviews                 "
-                  </div>
-                  <span class="day">S</span>
-                </li>
-                <li>
-                  <div class="bar" data-percent="43" style="height: 107.5px;"></div>
-                  <div class="data" style="top: 55.1px; display: none;">
-                    <strong>Wednesday, April 18</strong>
-                    <br>
-                    <span class="applicants">211</span>
-                    " Applicants / "
-                    <span class="interviews">20</span>
-                    " Interviews                      "
-
-                  </div>
-                  <span class="day">M</span>
-                </li>
-                <li>
-                  <div class="bar" data-percent="53" style="height: 132.5px;"></div>
-                  <div class="data">
-                    <strong>Tuesday, December 2</strong>
-                    <br>
-                    <span class="applicants">289</span>
-                    " Applicants / "
-                    <span class="interviews">26</span>
-                    " Interviews"
-
-                  </div>
-                  <span class="day">W</span>
-                </li>
-                <li>
-                  <div class="bar" data-percent="32" style="height: 80px;"></div>
-                  <div class="data">
-                    <strong>Thursday, December 4</strong>
-                    <br>
-                    <span class="applicants">154</span>
-                    " Applicants / "
-                    <span class="interviews">14</span>
-                    " Interviews                     "
-
-                  </div>
-                  <span class="day">T</span>
-                </li>
-                <li>
-                  <div class="bar" data-percent="48" style="height: 120px;"></div>
-                  <div class="data">
-                    <strong>Friday, December 5</strong>
-                    <br>
-                    <span class="applicants">235</span>
-                    " Applicants / "
-                    <span class="interviews">22</span>
-                    " Interviews                       "
-
-                  </div>
-                  <span class="day">F</span>
-                </li>
-                <li>
-                  <div class="bar" data-percent="42" style="height: 105px;"></div>
-                  <div class="data">
-                    <strong>Saturday, December 6</strong>
-                    <br>
-                    <span class="applicants">202</span>
-                    " Applicants / "
-                    <span class="interviews">8</span>
-                    " Interviews                      "
-
-                  </div>
-                  <span class="day">S</span>
-                </li>
-                <li>
-                  <div class="bar" data-percent="23" style="height: 57.5px;"></div>
-                  <div class="data">
-                    <strong>Sunday, December 7</strong>
-                    <br>
-                    <span class="applicants">89</span>
-                    " Applicants / "
-                    <span class="interviews">6</span>
-                    " Interviews                     "
-
-                  </div>
-                  <span class="day">S</span>
-                </li>
-                <li>
-                  <div class="bar" data-percent="63" style="height: 157.5px;"></div>
-                  <div class="data">
-                    <strong>Monday, December 8</strong>
-                    <br>
-                    <span class="applicants">305</span>
-                    " Applicants / "
-                    <span class="interviews">21</span>
-                    " Interviews                       "
-
-                  </div>
-                  <span class="day">M</span>
-                </li>
-                <li>
-                  <div class="bar" data-percent="73" style="height: 182.5px;"></div>.
-                  <div class="data">
-                    <strong>Tuesday, December 9</strong>
-                    <br>
-                    <span class="applicants">365</span>
-                    " Applicants / "
-                    <span class="interviews">42</span>
-                    " Interviews                       "
-
-                  </div> 
-                  <span class="day">T</span>
-                </li>
-                <li>
-                <div class="bar" data-percent="52" style="height: 130px;"></div>
-                <div class="data">
-                  <strong>Wednesday, December 10</strong>
-                  <br>
-                  <span class="applicants">245</span>
-                  " Applicants / "
-                  <span class="interviews">26</span>
-                  " Interviews                      "
-
+              <aside class="extra-features" role="complimentary">
+                <div class="link-wrapper">
+                  <a href="#" class="post-facebook post-button">
+                  <img src="icons/facebook-logo.svg">
+                  <span >Post to Facebook</span>
+                </a>
+                <a href="#" class="post-twitter post-button">
+                  <img src="icons/twitter.svg">
+                  <span>Tweet this Job</span>
+                </a>
+                <a href="#" class="post-linkedin post-button">
+                  <img src="icons/linkedin.svg">
+                  <span>Post to LinkedIn</span>
+                </a>
+              </div>
+              <div class="explore-links">
+                <section class="with-copy lorem-ipsum link-job">
+                  <div>
+                  <img src="icons/worldwide.svg">
+                  <h3>Link to this Job</h3>
                 </div>
-                <span class="day">W</span>
-              </li>
-              <li>
-                <div class="bar" data-percent="45" style="height: 112.5px;"></div>
-                <div class="data">
-                  <strong>Thursday, December 11</strong>
-                  <br>
-                  <span class="applicants">210</span>
-                  " Applicants / "
-                  <span class="interviews">10</span>
-                  " Interviews                       "
-
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore.
+                  </p>
+                  <div class="input-copy">
+                  <input type="text" value="http://loremipsum.dol/sit-amet">
+                </input>
+                <button class="copy-btn">Copy</button>
+              </div>
+                </section>
+                <section class="with-copy link-job">
+                  <div >
+                    <img src="icons/musical-cassette-tape.svg">
+                    <h3>Use the Button Widget</h3>
+                  </div>
+                  <p>
+                    This widget embeds the buttons for charing the job for
+                    submitting a resume on your website.
+                  </p>
+                  <div class="input-copy">
+                  <input type="text" value="<script src='text/javascript' s'>">
+                </input>
+                <button class="copy-btn">Copy</button>
+              </div>
+                </section>
+                <section class="without-copy link-job">
+                  <div>
+                  <img src="icons/send.svg">
+                  <h3>Upload Resumes by Email</h3>
                 </div>
-                <span class="day">T</span>
-              </li>
-              <li>
-                <div class="bar" data-percent="26" style="height: 65px;"></div>
-                <div class="data">
-                  <strong>Friday, December 12</strong>
-                  <br>
-                  &l... --> -->
-
-                     <!--  <header>
-
-        <img src="icons/menu.svg" id="menu-btn" width="20px" height="20px">
-        <div id="drop-down-menu">
-          <span>Drop Down Menu</span>
-        </div>
-          <input type="seach" id="search-input" placeholder="Search for a jobs, task or resume" name="search">
-           <img src="icons/add-a-contact-on-phone-interface-symbol-of-a-user-with-a-plus-sign.svg" class="square-btn icon-btn" height="25px" width="25px" id="add-user-btn">
-          <div id="add-user">
-         </div>
-            <img src="icons/add-calendar-symbol-for-events.svg" height="25px" width="25px" id="add-event-btn">
-          <div id="add-event">
-          <span>Add event</span>
+                <div>
+                  <p>
+                    You can automatically upload multiple resumes to this job
+                    by emailing the address below.
+                  </p>
+                  <input type="text" value="jonholmes@gmail.com">
+                </input>
+                </section>
+               </div>
+              </div>
+             </aside>
+            </div>
+           </main>
           </div>
-        <div id="settings">
-          <img src="icons/settings-gears.svg" height="25px" width="25px" id="settings-btn">
-          <span>Settings</span>
-          </div>
-        </header> -->
+        </body>
+      </html>
