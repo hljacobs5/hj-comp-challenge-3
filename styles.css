@@ -1,5 +1,10 @@
 /*left side nav panel*/
 
+body {
+padding: 0;
+margin: 0;
+}
+
 .side-panel {
   display: flex;
 }
@@ -119,7 +124,7 @@ h2 {
   bottom: 0;
   display: inline-block;
   font-size: initial;
-  min-height: 214%;
+  min-height: 182%;
   position: absolute;
   top: 0;
   width: 250px;
@@ -135,7 +140,7 @@ h2 {
   height: 43px;
   justify-content: space-around;
   margin-left: -45rem;
-  margin-top: -59rem;
+  margin-top: -58rem;
 }
 
 
@@ -206,7 +211,83 @@ h2 {
 
 #preview {
   color: #47A6F5;
+  text-decoration: none;
   cursor: pointer;
+}
+
+#icons-heading {
+
+  display: inline-flex;
+  margin-right: 10px;
+  vertical-align: top;
+  border: 2px solid #d2dae2;
+  border-radius: 100%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.delete {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #d2dae2;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-top: -4rem;
+}
+
+#delete {
+  height: 25px;
+  width: 40px;
+  padding-top: 7px;
+}
+
+.open {
+  height: 40px;
+  width: 40px;
+  border: 2px solid #d2dae2;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-top: -4rem;
+}
+
+.edit {
+  height: 40px;
+  width: 40px;
+  border: 2px solid #d2dae2;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-top: -4rem;
+}
+
+#edit {
+  height: 25px;
+  width: 40px;
+  padding-top: 7px;
+}
+
+.bookmark {
+  height: 40px;
+  width: 40px;
+  border: 2px solid #d2dae2;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-left: 72.5rem;
+  margin-top: -4rem;
+}
+
+.bookmark:hover, .edit:hover,
+.delete:hover {
+  border: 2px solid #47A3F3;
+}
+
+#bookmark {
+  height: 25px;
+  width: 40px;
+  padding-top: 7px;
 }
 
 #middle-section {
@@ -228,6 +309,8 @@ h2 {
 #notifications {
   color: #8B95A3;
   text-decoration: none;
+  font-size: 20px;
+  margin-left: 1rem;
 }
 
 #summary:hover,
@@ -238,7 +321,7 @@ h2 {
 #broadcast:hover,
 #notifications:hover {
   background-color: #FFFFFF;
-  border-bottom: 3px blue;
+  border-bottom: 3px #47A3F3;
   border-right: 0px;
   color: black;
 }
@@ -246,7 +329,7 @@ h2 {
 /*charts*/
 
 #chart {
-  margin-left: -1rem;
+  margin-left: 5rem;
   width: 25.5rem;
 
 }
@@ -331,7 +414,7 @@ h2 {
   width: 33%;
 }
 
-.summary-link {
+.summary {
   vertical-align: top;
   width: 31.5%;
 }
@@ -518,10 +601,6 @@ h2 {
   width: 92%;
 }
 
-.shorten-links {
-  display: none;
-}
-
 .with-copy input {
   border: 1px solid #e5e5e6;
   height: 15px;
@@ -563,8 +642,8 @@ h2 {
 
 
 input {
-  border-bottom: 1px solid #e5e5e6;
-  height: 2.3rem;
-  margin-left: 0rem;
-  width: 42rem;
+  height: 3.3rem;
+  margin-left: 4.7rem;
+  width: 53.5rem;
+  margin-top: -1rem;
 }
