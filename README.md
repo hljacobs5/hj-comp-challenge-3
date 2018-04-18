@@ -16,5 +16,5 @@
 #### Push your final work to github pages
 
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/static-comp-example.png)
-![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/hj-static-screenshot.png)
+![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/hj-static-comp-3.png)
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/bottom-section.png)
