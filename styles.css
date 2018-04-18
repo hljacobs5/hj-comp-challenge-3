@@ -514,3 +514,11 @@ width: 100%;
 min-height: 200rem;
 background-color: #EDF2F6;
 }
+
+#pies {
+    display: inline-flex;
+    margin-left: 18rem;
+    margin-top: -9rem;
+    height: 35rem;
+    width: 35rem;
+}
