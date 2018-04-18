@@ -272,6 +272,22 @@ h2 {
   width: 96%;
 }
 
+.circle-text-top {
+    color: #606060;
+    font-size: 0.5rem;
+    opacity: 0.5;
+    text-anchor: middle;
+    transform: translateY(-0.25em);
+}
+
+.circle-text-bottom  {
+    color: #606060;
+    font-size: 0.2rem;
+    opacity: 0.5;
+    text-anchor: middle;
+    transform: translateY(0.7em);
+}
+
 
 
 

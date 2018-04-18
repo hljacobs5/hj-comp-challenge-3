@@ -73,8 +73,8 @@
   }
 
  #nav-panel {
-  min-height: 137%;
-  }
+  display: none;
+}
 
  .link-job h3 {
    display: inline;
@@ -105,8 +105,7 @@
   }
 
   #nav-panel {
-    min-height: 137%;
-    width: 320px;
+   display: none;
   }
 
   #charts {
