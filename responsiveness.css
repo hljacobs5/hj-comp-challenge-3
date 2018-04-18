@@ -1,4 +1,5 @@
 
+
 @media only screen and (max-width: 948px) {
   .links {
     font-size: 12px;
@@ -52,7 +53,7 @@
  input {
   width: 0px;
   }
-     .explore-links {
+  .explore-links {
     margin-left: -60rem;
     margin-top: 8rem;
     width: 20rem;
@@ -73,71 +74,105 @@
   }
 
  #nav-panel {
-  display: none;
-}
+  min-height: 137%;
+  }
 
  .link-job h3 {
    display: inline;
    font-size: 20px;
    margin-left: 5px;
    vertical-align: middle;
-}
+  }
 
-#links ul li {
-  font-size: 13px;
-}
+  #links ul li {
+   font-size: 13px;
+  }
+
+
+
 }
 
 @media only screen and (max-width: 320px) {
-
+  
   #chart {
-    display: stack;
+    display: none;
   }
 
-#main {
-  display: none;
-}
-
-#admin {
-  display: none;
-}
-
-#categories {
-  display: none;
-}
-
-#line-1, #line-2, #line-3, #line-4 {
-  display: none;
-}
-
-.icon-home, .icon-jobs,
-.icon-resumes, .icon-tasks,
-.icon-calendar, .icon-users,
-.icon-locations, .icon-workflows,
-.icon-jobboards, .icon-social,
-.icon-administrative, .icon-design,
-.icon-executive, .icon-humanresources {
-  display: none;
-} 
  .table {
-    margin-top: -217rem;
-    margin-left: -2.5rem;
+    margin-top: -262.5rem;
+    margin-left: 4.5rem;
     width: 320px;
+}
+
+#pies {
+  display: none;
+}
+
+  span {
+    display: none;
   }
 
-  #statistics {
-    margin-top: 33rem;
+  #main {
+    display: none;
   }
 
-  .side-panel {
-   display: none;
+  #admin {
+    display: none;
+  }
+
+  #categories {
+    display: none;
+  }
+
+  #nav-panel {
+    min-height: 220%;
+    width: 100px;
+  }
+
+  #nav-panel #profile-img {
+    margin-left: 15px;
+  }
+
+  .top-icons {
+    display: none;
+  }
+  h1 {
+    display: none;
   }
 
   #charts {
     display: none;
   }
 
+  .side-panel {
+    display: none;
+  }
+
   .explore-links{
     width: 320px;
+  }
+
+  li {
+    width: 57px;
+  }
+
+  #line-1, #line-2, #line-3, #line-4 {
+    display: none;
+  }
+
+  .icons {
+    margin-top: 7rem;
+  }
+
+  input {
+    display: none;
+  }
+
+  #location {
+    display: none;
+  }
+
+  #links {
+    display: none;
   }
 }
