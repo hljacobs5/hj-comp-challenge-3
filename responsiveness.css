@@ -1,0 +1,52 @@
+@media only screen and (max-width: 948px) {
+
+  /*#pies {
+    margin-left: -3rem;
+    height: 15rem;
+    width: 15rem;
+  }*/
+
+  /*#statistics {
+    width: width: 148%;
+  }*/
+  .links {
+    font-size: 12px;
+  }
+
+  #chart {
+    margin-left: -30rem;
+    width: 25.5rem;
+    margin-top: 13rem;
+  }
+
+  /*.cell {
+
+    height: 1rem;
+    padding: 20px 20px 20px 0;
+    vertical-align: middle;
+}*/
+
+.job-description {
+  margin-top: 14rem;
+}
+
+.link-wrapper{
+  margin-top: 51rem;
+  margin-left: -83rem;
+}
+
+.explore-links {
+      margin-left: -19rem;
+    margin-top: -9rem;
+}
+
+.table {
+  width: 312%;
+  margin-top: -4rem;
+}
+
+input {
+    overflow: visible;
+    width: 25rem;
+}
+}
