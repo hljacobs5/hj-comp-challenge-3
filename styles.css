@@ -5,12 +5,12 @@
 }
 
 body {
-  padding: 0;
-  margin: 0;
   background-color: #EDF2F6;
   display: flex;
-  width: 100%;
   font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .side-panel {
@@ -43,8 +43,8 @@ body {
 }
 
 .info-links:hover {
-  border-bottom: 1px solid blue;
   background: transparent;
+  border-bottom: 1px solid blue;
 }
 
 .list {
@@ -205,12 +205,12 @@ main {
 }
 
 .header-icon {
-  border-right: 1px solid #e5e5e6;
+  align-items: center;
   border-left: 1px solid #e5e5e6;
-  width: 70px;
+  border-right: 1px solid #e5e5e6;
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: 70px;
 }
 
 .header-icon:hover {
@@ -229,24 +229,26 @@ main {
   content: url('icons/settings-hover.svg');
 }
 
-.menu-icon:hover {}
+.menu-icon:hover {
+  content: url('icons/menu-hover.svg');
+}
 
 #preview {
   color: #47A6F5;
-  text-decoration: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 #icons-heading {
-  display: inline-flex;
-  margin-right: 10px;
-  vertical-align: top;
   border-radius: 100%;
   cursor: pointer;
-  width: 270px;
-  justify-content: space-between;
-  height: 40px;
+  display: inline-flex;
   float: right;
+  height: 40px;
+  justify-content: space-between;
+  margin-right: 10px;
+  vertical-align: top;
+  width: 270px;
 }
 
 .open {
@@ -259,58 +261,52 @@ main {
 
 #delete {
   height: 25px;
-  width: 40px;
   padding-top: 7px;
+  width: 40px;
 }
 
 .open {
-  height: 40px;
-  width: 80px;
-  border: 2px solid #d2dae2;
+  align-content: center;
   border-radius: 25%;
+  border: 2px solid #d2dae2;
   cursor: pointer;
   display: flex;
+  height: 40px;
   justify-content: center;
-  align-content: center;
+  width: 80px;
 }
 
-.green-dot {
-  color: green;
-  margin: 0;
-} 
-
-
 .edit, .bookmark, .delete {
-  height: 40px;
-  width: 40px;
-  border: 2px solid #d2dae2;
+  align-content: center;
   border-radius: 100%;
+  border: 2px solid #d2dae2;
   cursor: pointer;
-      display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
 }
 
 #edit {
   height: 25px;
-  width: 40px;
   padding-top: 7px;
+  width: 40px;
 }
 
-.bookmark:hover, .edit:hover,
-.delete:hover {
+ .edit:hover, .bookmark:hover
+.delete:hover, .open:hover {
   border: 2px solid #47A3F3;
 }
 
 #bookmark {
   height: 25px;
-  width: 40px;
   padding-top: 7px;
+  width: 40px;
 }
 
 #middle-section {
-  display: flex;
   background-color: #FFFFFF;
+  display: flex;
   padding: 40px;
 }
 
@@ -327,9 +323,9 @@ ul {
 #interviews, #activity, #broadcast,
 #notifications {
   color: #8B95A3;
-  text-decoration: none;
   font-size: 20px;
   margin-left: 1rem;
+  text-decoration: none;
 }
 
 #summary:hover,
@@ -339,9 +335,7 @@ ul {
 #activity:hover,
 #broadcast:hover,
 #notifications:hover {
-  /*background-color: #FFFFFF;*/
   border-bottom: 3px #47A3F3;
-  /*border-right: 0px;*/
   color: black;
 }
 
@@ -352,9 +346,9 @@ a {
 /*charts*/
 
 .statistics {
+  align-items: center;
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 #pies {
@@ -362,12 +356,9 @@ a {
   width: 50%;
 }
 
-
-
 .chart img {
   width: 30rem;
 }
-
 
 .circle-text-top {
     color: #606060;
@@ -513,7 +504,6 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   width: 40%;
-  /*width: 30%;*/
 }
 
 .facebook {
@@ -642,13 +632,11 @@ a {
 
 .seach-bar::placeholder {
   padding-left: 30px;
-  /*font-size: 18px;*/
-  /*margin-bottom: 10px;*/
 }
 
 input {
-  width: 100%;
   border:none;
-  margin-left: 20px;
   height: 98%;
+  margin-left: 20px;
+  width: 100%;
 }

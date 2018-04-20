@@ -59,7 +59,11 @@
 
   .chart img {
     width: 20rem;
-}
+  }
+
+  #links ul li{
+  display: block;
+  }
 }
 
 
