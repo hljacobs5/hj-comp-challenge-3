@@ -17,7 +17,7 @@
 #### Copy
 #### Images
 #### Icons
-#### Color palette, but ONLY if you select a complementary palette. We highly encourage you to visit sites like: material palette or coolors or color-hex.
+#### Color palette (only a complementary palette)
 
 ## **Base Requirements**
 
@@ -28,7 +28,7 @@
 
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/static-comp-example.png)
 
-### **My version:**
+### **My version:** https://hljacobs5.github.io/hj-comp-challenge-3/
 
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/comp-3-screenshot.png)
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/bottom-comp.png)
