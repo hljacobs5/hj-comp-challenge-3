@@ -30,3 +30,4 @@
 
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/static-comp-example.png)
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/comp-3-screenshot.png)
+![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/bottom-comp.png)
