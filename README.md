@@ -24,10 +24,12 @@
 
 #### Basic static site setup with index.html and styles.css
 #### Site must be responsive
-#### Create a repo on github :octocat: for your work with following naming construct: [initials]-comp-challenge-[challenge number] (i.e. “bt-comp-challenge-1”)
-#### Include a README with the repo that provides a brief overview of the project, and images of both the original comp and your version.
-#### Push your final work to github pages
+
+#### **Template:** 
 
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/static-comp-example.png)
+
+#### **My version:**
+
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/comp-3-screenshot.png)
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/bottom-comp.png)
