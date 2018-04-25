@@ -8,12 +8,11 @@
 
 ### **Things to Note**
 
-#### We have not provided you with any assets, nor native files. You will have to source assets on your own per the creative license guidelines below.
-#### We have not provided breakpoint specific comps. You will need to employ some creativity here with a heavy dose of good judgment. Think about how you, as a user, could best experience the content/layout across various screen sizes. Is the content legible? Does the imagery (especially full bleed background images) still make sense and look good? Do portions of the nav become icons (and are they intuitive?), or a menu?
+#### They did not provide us with any assets, nor native files. We had to source assets on our own per the creative license guidelines below.
 
 ## **Creative License**
 
-#### You may NOT take liberties with the layout, but your creative license includes:
+#### We could not take liberties with the layout, but our creative license included:
 
 #### Copy
 #### Images
@@ -25,11 +24,11 @@
 #### Basic static site setup with index.html and styles.css
 #### Site must be responsive
 
-#### **Template:** 
+### **Template:** 
 
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/static-comp-example.png)
 
-#### **My version:**
+### **My version:**
 
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/comp-3-screenshot.png)
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/bottom-comp.png)
